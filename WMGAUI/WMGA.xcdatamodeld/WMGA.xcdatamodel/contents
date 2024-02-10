@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="GroupMembers" representedClassName=".GroupMembers" syncable="YES">
+        <attribute name="gid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="memName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GroupNames" representedClassName=".GroupNames" syncable="YES">
+        <attribute name="gid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="gname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LoginDetails" representedClassName="LoginDetails" syncable="YES">
+        <attribute name="uemail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uphone" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="upwd" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="GroupNames" positionX="-54" positionY="27" width="128" height="90"/>
+        <element name="LoginDetails" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="GroupMembers" positionX="-36" positionY="45" width="128" height="75"/>
+    </elements>
+</model>
